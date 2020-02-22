@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const Footer = (props) => {
-    return (
+    return ( //start with function-based component first
         <footer className={styles.footer}>
-            <h3>Copyright Foodify 2020</h3>
+            <p>Copyright &copy; Foodify {new Date().getFullYear()}</p>
+            
         </footer>
     );
 }
 
-export default Navbar;
+export default Footer;

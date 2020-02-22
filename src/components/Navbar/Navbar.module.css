@@ -4,8 +4,27 @@
     height: 5rem;
     background-color: #dda0dd;
     justify-content: space-around;
-    color: #ffffff;
-    box-shadow: 2px 2px 7px 2px;
+    box-shadow: 2px 2px 7px 2px lightgrey;
 }
+
+.navbar h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    font-weight: 500;
+    margin : 1rem;
+}
+.navbar ul li:hover {
+    border-bottom: 2px solid gray;
+}
+
+
+
 
 
